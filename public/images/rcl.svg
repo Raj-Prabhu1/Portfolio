@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Credit line flow: account opening, billing, repayment with reversal">
+  <defs>
+    <pattern id="d" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.5" fill="#141311" fill-opacity="0.10"/>
+    </pattern>
+    <marker id="a" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#141311" fill-opacity="0.6"/>
+    </marker>
+    <marker id="aa" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#2f3bff"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="1000" fill="#dbe0f5"/>
+  <rect width="1600" height="1000" fill="url(#d)"/>
+
+  <g fill="#f8f6f1" stroke="#141311" stroke-opacity="0.22" stroke-width="2.5">
+    <rect x="330" y="420" width="215" height="150" rx="26"/>
+    <rect x="693" y="420" width="215" height="150" rx="26"/>
+    <rect x="1056" y="420" width="215" height="150" rx="26"/>
+  </g>
+
+  <g stroke="#141311" stroke-opacity="0.6" stroke-width="3" marker-end="url(#a)" fill="none">
+    <path d="M556 495 H684"/>
+    <path d="M919 495 H1047"/>
+  </g>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#141311" text-anchor="middle">
+    <text x="437" y="495">Account</text>
+    <text x="437" y="522">opening</text>
+    <text x="800" y="495">Billing &amp;</text>
+    <text x="800" y="522">charges</text>
+    <text x="1163" y="495">Repayment</text>
+    <text x="1163" y="522">collection</text>
+  </g>
+
+  <g fill="#2f3bff">
+    <rect x="352" y="442" width="46" height="7" rx="3.5"/>
+    <rect x="715" y="442" width="46" height="7" rx="3.5"/>
+    <rect x="1078" y="442" width="46" height="7" rx="3.5"/>
+  </g>
+
+  <path d="M1163 586 C 1163 740, 800 760, 800 616" stroke="#2f3bff" stroke-width="3.5" fill="none" marker-end="url(#aa)"/>
+  <text x="985" y="742" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#2f3bff" text-anchor="middle">reversal</text>
+
+  <g stroke="#141311" stroke-opacity="0.25" stroke-width="2">
+    <path d="M120 180 H1480"/>
+    <path d="M120 850 H1480"/>
+  </g>
+</svg>

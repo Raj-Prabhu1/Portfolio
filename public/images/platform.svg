@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Terminal window running a service">
+  <defs>
+    <pattern id="d" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.5" fill="#141311" fill-opacity="0.10"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="#e8e2d6"/>
+  <rect width="1600" height="1000" fill="url(#d)"/>
+
+  <g>
+    <rect x="470" y="255" width="660" height="490" rx="30" fill="#141311"/>
+    <rect x="470" y="255" width="660" height="70" rx="30" fill="#141311"/>
+    <rect x="470" y="310" width="660" height="15" fill="#141311"/>
+    <g fill="#f2efe9" fill-opacity="0.35">
+      <circle cx="516" cy="290" r="8"/>
+      <circle cx="546" cy="290" r="8"/>
+      <circle cx="576" cy="290" r="8"/>
+    </g>
+
+    <g fill="#f2efe9" fill-opacity="0.85">
+      <rect x="516" y="370" width="26" height="13" rx="6"/>
+      <rect x="556" y="370" width="200" height="13" rx="6" fill-opacity="0.45"/>
+      <rect x="516" y="416" width="230" height="13" rx="6" fill-opacity="0.45"/>
+      <rect x="546" y="462" width="170" height="13" rx="6" fill-opacity="0.45"/>
+      <rect x="546" y="508" width="290" height="13" rx="6" fill-opacity="0.45"/>
+      <rect x="516" y="554" width="210" height="13" rx="6" fill-opacity="0.45"/>
+      <rect x="516" y="646" width="150" height="13" rx="6" fill-opacity="0.45"/>
+    </g>
+
+    <rect x="546" y="462" width="170" height="13" rx="6" fill="#2f3bff"/>
+    <rect x="516" y="600" width="26" height="13" rx="6" fill="#2f3bff"/>
+    <rect x="556" y="600" width="120" height="13" rx="6" fill="#2f3bff" fill-opacity="0.55"/>
+    <rect x="694" y="596" width="10" height="22" rx="3" fill="#f2efe9"/>
+
+    <g stroke="#f2efe9" stroke-opacity="0.18" stroke-width="2">
+      <path d="M860 355 V705"/>
+    </g>
+    <g fill="#f2efe9" fill-opacity="0.30">
+      <rect x="896" y="370" width="180" height="13" rx="6"/>
+      <rect x="896" y="416" width="140" height="13" rx="6"/>
+      <rect x="896" y="508" width="180" height="13" rx="6"/>
+      <rect x="896" y="554" width="120" height="13" rx="6"/>
+      <rect x="896" y="646" width="160" height="13" rx="6"/>
+    </g>
+    <rect x="896" y="462" width="90" height="13" rx="6" fill="#2f3bff" fill-opacity="0.8"/>
+    <rect x="1036" y="646" width="60" height="13" rx="6" fill="#f2efe9" fill-opacity="0.6"/>
+  </g>
+
+  <g stroke="#141311" stroke-opacity="0.25" stroke-width="2.5" fill="none">
+    <path d="M300 400 H430"/>
+    <path d="M300 600 H430"/>
+    <path d="M1170 400 H1300"/>
+    <path d="M1170 600 H1300"/>
+  </g>
+  <g fill="#2f3bff">
+    <circle cx="300" cy="400" r="10"/>
+    <circle cx="1300" cy="600" r="10"/>
+  </g>
+</svg>

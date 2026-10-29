@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Network of connected nodes">
+  <defs>
+    <pattern id="d" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.5" fill="#141311" fill-opacity="0.10"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="#d8d4e4"/>
+  <rect width="1600" height="1000" fill="url(#d)"/>
+
+  <g transform="translate(800 500)">
+    <g stroke="#141311" stroke-opacity="0.45" stroke-width="2.5">
+      <path d="M0 0 L0 -250"/>
+      <path d="M0 0 L216 -125"/>
+      <path d="M0 0 L216 125"/>
+      <path d="M0 0 L0 250"/>
+      <path d="M0 0 L-216 125"/>
+      <path d="M0 0 L-216 -125"/>
+    </g>
+    <g fill="#f8f6f1" stroke="#141311" stroke-opacity="0.30" stroke-width="2.5">
+      <circle cx="0" cy="-250" r="34"/>
+      <circle cx="216" cy="-125" r="34"/>
+      <circle cx="216" cy="125" r="34"/>
+      <circle cx="0" cy="250" r="34"/>
+      <circle cx="-216" cy="125" r="34"/>
+      <circle cx="-216" cy="-125" r="34"/>
+    </g>
+    <circle cx="216" cy="-125" r="34" fill="#2f3bff"/>
+    <circle cx="-216" cy="125" r="34" fill="#2f3bff" fill-opacity="0.25" stroke="#2f3bff" stroke-width="3"/>
+    <g fill="#141311">
+      <circle cx="0" cy="-250" r="7"/>
+      <circle cx="216" cy="125" r="7"/>
+      <circle cx="0" cy="250" r="7"/>
+      <circle cx="-216" cy="-125" r="7"/>
+    </g>
+    <circle cx="0" cy="0" r="74" fill="#f8f6f1" stroke="#141311" stroke-opacity="0.35" stroke-width="3"/>
+    <circle cx="0" cy="0" r="26" fill="#141311"/>
+    <g stroke="#141311" stroke-opacity="0.22" stroke-width="2" fill="none">
+      <circle cx="0" cy="0" r="330"/>
+      <circle cx="0" cy="0" r="420"/>
+    </g>
+  </g>
+</svg>

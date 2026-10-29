@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Raj Prabhu R monogram">
+  <defs>
+    <pattern id="d" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.2" fill="#141311" fill-opacity="0.10"/>
+    </pattern>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dbe0f5"/>
+      <stop offset="55%" stop-color="#efe4d8"/>
+      <stop offset="100%" stop-color="#d9e6dc"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="1200" fill="url(#g)"/>
+  <rect width="900" height="1200" fill="url(#d)"/>
+
+  <g fill="none" stroke="#141311" stroke-opacity="0.16" stroke-width="2">
+    <circle cx="450" cy="600" r="300"/>
+    <circle cx="450" cy="600" r="380"/>
+  </g>
+
+  <text x="450" y="700"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="330" font-weight="700" letter-spacing="-14"
+        fill="#141311" text-anchor="middle">RP</text>
+
+  <rect x="330" y="760" width="240" height="8" rx="4" fill="#2f3bff"/>
+
+  <text x="450" y="850"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="27" font-weight="600" letter-spacing="7"
+        fill="#141311" fill-opacity="0.75" text-anchor="middle">RAJ PRABHU R</text>
+  <text x="450" y="895"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="22" letter-spacing="3"
+        fill="#141311" fill-opacity="0.5" text-anchor="middle">SOFTWARE ENGINEER</text>
+
+  <g stroke="#141311" stroke-opacity="0.3" stroke-width="2.5">
+    <path d="M90 140 H240"/>
+    <path d="M660 1060 H810"/>
+  </g>
+  <circle cx="240" cy="140" r="9" fill="#2f3bff"/>
+  <circle cx="660" cy="1060" r="9" fill="#141311"/>
+</svg>
